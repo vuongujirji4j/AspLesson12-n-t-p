@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="sach_2210900085Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="nhaxuatban">
+          <Key>
+            <PropertyRef Name="manxb" />
+          </Key>
+          <Property Name="manxb" Type="int" Nullable="false" />
+          <Property Name="tennhaxuatban" Type="nvarchar" MaxLength="100" />
+          <Property Name="tongdausach" Type="int" />
+        </EntityType>
+        <EntityType Name="sach">
+          <Key>
+            <PropertyRef Name="masach" />
+          </Key>
+          <Property Name="masach" Type="int" Nullable="false" />
+          <Property Name="tensach" Type="nvarchar" MaxLength="50" />
+          <Property Name="sotrang" Type="int" />
+          <Property Name="namxb" Type="int" />
+          <Property Name="tentacgia" Type="nvarchar" MaxLength="50" />
+          <Property Name="manxb" Type="int" />
+        </EntityType>
+        <Association Name="fk_sach_nhaxuatban">
+          <End Role="nhaxuatban" Type="Self.nhaxuatban" Multiplicity="0..1" />
+          <End Role="sach" Type="Self.sach" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nhaxuatban">
+              <PropertyRef Name="manxb" />
+            </Principal>
+            <Dependent Role="sach">
+              <PropertyRef Name="manxb" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="sach_2210900085ModelStoreContainer">
+          <EntitySet Name="nhaxuatban" EntityType="Self.nhaxuatban" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sach" EntityType="Self.sach" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk_sach_nhaxuatban" Association="Self.fk_sach_nhaxuatban">
+            <End Role="nhaxuatban" EntitySet="nhaxuatban" />
+            <End Role="sach" EntitySet="sach" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="sach_2210900085Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="nhaxuatban">
+          <Key>
+            <PropertyRef Name="manxb" />
+          </Key>
+          <Property Name="manxb" Type="Int32" Nullable="false" />
+          <Property Name="tennhaxuatban" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="tongdausach" Type="Int32" />
+          <NavigationProperty Name="sach" Relationship="Self.fk_sach_nhaxuatban" FromRole="nhaxuatban" ToRole="sach" />
+        </EntityType>
+        <EntityType Name="sach">
+          <Key>
+            <PropertyRef Name="masach" />
+          </Key>
+          <Property Name="masach" Type="Int32" Nullable="false" />
+          <Property Name="tensach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="sotrang" Type="Int32" />
+          <Property Name="namxb" Type="Int32" />
+          <Property Name="tentacgia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="manxb" Type="Int32" />
+          <NavigationProperty Name="nhaxuatban" Relationship="Self.fk_sach_nhaxuatban" FromRole="sach" ToRole="nhaxuatban" />
+        </EntityType>
+        <Association Name="fk_sach_nhaxuatban">
+          <End Role="nhaxuatban" Type="Self.nhaxuatban" Multiplicity="0..1" />
+          <End Role="sach" Type="Self.sach" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="nhaxuatban">
+              <PropertyRef Name="manxb" />
+            </Principal>
+            <Dependent Role="sach">
+              <PropertyRef Name="manxb" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="sach_2210900085Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="nhaxuatban" EntityType="Self.nhaxuatban" />
+          <EntitySet Name="sach" EntityType="Self.sach" />
+          <AssociationSet Name="fk_sach_nhaxuatban" Association="Self.fk_sach_nhaxuatban">
+            <End Role="nhaxuatban" EntitySet="nhaxuatban" />
+            <End Role="sach" EntitySet="sach" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="sach_2210900085ModelStoreContainer" CdmEntityContainer="sach_2210900085Entities">
+          <EntitySetMapping Name="nhaxuatban">
+            <EntityTypeMapping TypeName="sach_2210900085Model.nhaxuatban">
+              <MappingFragment StoreEntitySet="nhaxuatban">
+                <ScalarProperty Name="manxb" ColumnName="manxb" />
+                <ScalarProperty Name="tennhaxuatban" ColumnName="tennhaxuatban" />
+                <ScalarProperty Name="tongdausach" ColumnName="tongdausach" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sach">
+            <EntityTypeMapping TypeName="sach_2210900085Model.sach">
+              <MappingFragment StoreEntitySet="sach">
+                <ScalarProperty Name="masach" ColumnName="masach" />
+                <ScalarProperty Name="tensach" ColumnName="tensach" />
+                <ScalarProperty Name="sotrang" ColumnName="sotrang" />
+                <ScalarProperty Name="namxb" ColumnName="namxb" />
+                <ScalarProperty Name="tentacgia" ColumnName="tentacgia" />
+                <ScalarProperty Name="manxb" ColumnName="manxb" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

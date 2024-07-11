@@ -1,0 +1,64 @@
+﻿@model IEnumerable<pvv_2210900085.Models.sach>
+
+@{
+    ViewBag.Title = "danh sach san pham";
+    Layout = "~/Views/Shared/_PvvLayout.cshtml";
+}
+
+<h2>danh sach san pham</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.masach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tensach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sotrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.namxb)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tentacgia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nhaxuatban.tennhaxuatban)
+        </th>
+        <th>chuc nang</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.masach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tensach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sotrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.namxb)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tentacgia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nhaxuatban.tennhaxuatban)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.masach }) |
+            @Html.ActionLink("Details", "Details", new { id = item.masach }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.masach })
+        </td>
+    </tr>
+}
+
+</table>

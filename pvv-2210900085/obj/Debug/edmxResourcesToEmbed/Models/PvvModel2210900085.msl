@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sach_2210900085ModelStoreContainer" CdmEntityContainer="sach_2210900085Entities">
+    <EntitySetMapping Name="nhaxuatban">
+      <EntityTypeMapping TypeName="sach_2210900085Model.nhaxuatban">
+        <MappingFragment StoreEntitySet="nhaxuatban">
+          <ScalarProperty Name="manxb" ColumnName="manxb" />
+          <ScalarProperty Name="tennhaxuatban" ColumnName="tennhaxuatban" />
+          <ScalarProperty Name="tongdausach" ColumnName="tongdausach" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sach">
+      <EntityTypeMapping TypeName="sach_2210900085Model.sach">
+        <MappingFragment StoreEntitySet="sach">
+          <ScalarProperty Name="masach" ColumnName="masach" />
+          <ScalarProperty Name="tensach" ColumnName="tensach" />
+          <ScalarProperty Name="sotrang" ColumnName="sotrang" />
+          <ScalarProperty Name="namxb" ColumnName="namxb" />
+          <ScalarProperty Name="tentacgia" ColumnName="tentacgia" />
+          <ScalarProperty Name="manxb" ColumnName="manxb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

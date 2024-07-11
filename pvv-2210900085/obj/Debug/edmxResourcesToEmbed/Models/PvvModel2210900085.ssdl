@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sach_2210900085Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="nhaxuatban">
+    <Key>
+      <PropertyRef Name="manxb" />
+    </Key>
+    <Property Name="manxb" Type="int" Nullable="false" />
+    <Property Name="tennhaxuatban" Type="nvarchar" MaxLength="100" />
+    <Property Name="tongdausach" Type="int" />
+  </EntityType>
+  <EntityType Name="sach">
+    <Key>
+      <PropertyRef Name="masach" />
+    </Key>
+    <Property Name="masach" Type="int" Nullable="false" />
+    <Property Name="tensach" Type="nvarchar" MaxLength="50" />
+    <Property Name="sotrang" Type="int" />
+    <Property Name="namxb" Type="int" />
+    <Property Name="tentacgia" Type="nvarchar" MaxLength="50" />
+    <Property Name="manxb" Type="int" />
+  </EntityType>
+  <Association Name="fk_sach_nhaxuatban">
+    <End Role="nhaxuatban" Type="Self.nhaxuatban" Multiplicity="0..1" />
+    <End Role="sach" Type="Self.sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nhaxuatban">
+        <PropertyRef Name="manxb" />
+      </Principal>
+      <Dependent Role="sach">
+        <PropertyRef Name="manxb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sach_2210900085ModelStoreContainer">
+    <EntitySet Name="nhaxuatban" EntityType="Self.nhaxuatban" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sach" EntityType="Self.sach" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_sach_nhaxuatban" Association="Self.fk_sach_nhaxuatban">
+      <End Role="nhaxuatban" EntitySet="nhaxuatban" />
+      <End Role="sach" EntitySet="sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,65 @@
+﻿@model pvv_2210900085.Models.sach
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_PvvLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tensach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tensach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sotrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sotrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.namxb)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.namxb)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tentacgia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tentacgia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nhaxuatban.tennhaxuatban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nhaxuatban.tennhaxuatban)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "PvvIndex")
+        </div>
+    }
+</div>

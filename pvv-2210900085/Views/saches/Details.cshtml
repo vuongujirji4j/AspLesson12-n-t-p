@@ -1,0 +1,59 @@
+﻿@model pvv_2210900085.Models.sach
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_PvvLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tensach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tensach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sotrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sotrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.namxb)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.namxb)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tentacgia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tentacgia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nhaxuatban.tennhaxuatban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nhaxuatban.tennhaxuatban)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.masach }) |
+    @Html.ActionLink("Back to List", "PvvIndex")
+</p>

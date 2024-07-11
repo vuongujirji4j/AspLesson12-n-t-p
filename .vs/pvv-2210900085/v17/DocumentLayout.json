@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|c:\\users\\zenbook\\onedrive\\documents\\visual studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\saches\\pvvindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\saches\\pvvindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\saches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\saches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\saches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\saches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\saches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\saches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\saches\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\saches\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\nhaxuatbans\\pvvindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\nhaxuatbans\\pvvindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\nhaxuatbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\nhaxuatbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\nhaxuatbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\nhaxuatbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\nhaxuatbans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\nhaxuatbans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\nhaxuatbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\nhaxuatbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\controllers\\nhaxuatbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\controllers\\nhaxuatbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\controllers\\sachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\controllers\\sachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\shared\\_pvvlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\shared\\_pvvlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\models\\nhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\models\\nhaxuatban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\pvvhome\\pvvcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\pvvhome\\pvvcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\controllers\\pvvhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\controllers\\pvvhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\models\\pvvmodel2210900085.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\models\\pvvmodel2210900085.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\views\\pvvhome\\pvvabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{787EC22B-229F-4A28-A617-1FC94556D7D8}|pvv-2210900085\\pvv-2210900085.csproj|solutionrelative:pvv-2210900085\\views\\pvvhome\\pvvabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Details.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\saches\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Details.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\saches\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:32:30.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PvvIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\PvvIndex.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\saches\\PvvIndex.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\PvvIndex.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\saches\\PvvIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:18:11.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Create.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\saches\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Create.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\saches\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:27:53.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\saches\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Edit.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\saches\\Edit.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:32:38.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Delete.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\saches\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\saches\\Delete.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\saches\\Delete.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAD0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:32:23.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Delete.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\nhaxuatbans\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Delete.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\nhaxuatbans\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:32:04.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Create.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\nhaxuatbans\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Create.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\nhaxuatbans\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T09:30:20.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PvvIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\PvvIndex.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\nhaxuatbans\\PvvIndex.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\PvvIndex.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\nhaxuatbans\\PvvIndex.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T09:05:41.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Details.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\nhaxuatbans\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Details.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\nhaxuatbans\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:31:59.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\nhaxuatbans\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\nhaxuatbans\\Edit.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\nhaxuatbans\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T10:31:47.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "sachesController.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Controllers\\sachesController.cs",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Controllers\\sachesController.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Controllers\\sachesController.cs",
+              "RelativeToolTip": "pvv-2210900085\\Controllers\\sachesController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAwHcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:17:28.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "nhaxuatbansController.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Controllers\\nhaxuatbansController.cs",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Controllers\\nhaxuatbansController.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Controllers\\nhaxuatbansController.cs",
+              "RelativeToolTip": "pvv-2210900085\\Controllers\\nhaxuatbansController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T09:00:05.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_PvvLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\Shared\\_PvvLayout.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\Shared\\_PvvLayout.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\Shared\\_PvvLayout.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\Shared\\_PvvLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T01:35:38.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "nhaxuatban.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Models\\nhaxuatban.cs",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Models\\nhaxuatban.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Models\\nhaxuatban.cs",
+              "RelativeToolTip": "pvv-2210900085\\Models\\nhaxuatban.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T09:33:04.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PvvContact.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\PvvHome\\PvvContact.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\PvvHome\\PvvContact.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\PvvHome\\PvvContact.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\PvvHome\\PvvContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T01:33:48.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "pvv-2210900085\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "pvv-2210900085\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T01:34:22.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PvvHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Controllers\\PvvHomeController.cs",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Controllers\\PvvHomeController.cs",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Controllers\\PvvHomeController.cs",
+              "RelativeToolTip": "pvv-2210900085\\Controllers\\PvvHomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T01:32:27.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PvvModel2210900085.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Models\\PvvModel2210900085.edmx",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Models\\PvvModel2210900085.edmx",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Models\\PvvModel2210900085.edmx [Diagram1]",
+              "RelativeToolTip": "pvv-2210900085\\Models\\PvvModel2210900085.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-11T01:49:56.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T01:43:31.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PvvAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\PvvHome\\PvvAbout.cshtml",
+              "RelativeDocumentMoniker": "pvv-2210900085\\Views\\PvvHome\\PvvAbout.cshtml",
+              "ToolTip": "C:\\Users\\ZenBook\\OneDrive\\Documents\\Visual Studio 2022\\pvv-2210900085\\pvv-2210900085\\Views\\PvvHome\\PvvAbout.cshtml",
+              "RelativeToolTip": "pvv-2210900085\\Views\\PvvHome\\PvvAbout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T01:33:13.824Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

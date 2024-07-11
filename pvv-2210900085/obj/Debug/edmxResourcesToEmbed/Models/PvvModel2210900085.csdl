@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sach_2210900085Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="nhaxuatban">
+    <Key>
+      <PropertyRef Name="manxb" />
+    </Key>
+    <Property Name="manxb" Type="Int32" Nullable="false" />
+    <Property Name="tennhaxuatban" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="tongdausach" Type="Int32" />
+    <NavigationProperty Name="sach" Relationship="Self.fk_sach_nhaxuatban" FromRole="nhaxuatban" ToRole="sach" />
+  </EntityType>
+  <EntityType Name="sach">
+    <Key>
+      <PropertyRef Name="masach" />
+    </Key>
+    <Property Name="masach" Type="Int32" Nullable="false" />
+    <Property Name="tensach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sotrang" Type="Int32" />
+    <Property Name="namxb" Type="Int32" />
+    <Property Name="tentacgia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="manxb" Type="Int32" />
+    <NavigationProperty Name="nhaxuatban" Relationship="Self.fk_sach_nhaxuatban" FromRole="sach" ToRole="nhaxuatban" />
+  </EntityType>
+  <Association Name="fk_sach_nhaxuatban">
+    <End Role="nhaxuatban" Type="Self.nhaxuatban" Multiplicity="0..1" />
+    <End Role="sach" Type="Self.sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nhaxuatban">
+        <PropertyRef Name="manxb" />
+      </Principal>
+      <Dependent Role="sach">
+        <PropertyRef Name="manxb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sach_2210900085Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="nhaxuatban" EntityType="Self.nhaxuatban" />
+    <EntitySet Name="sach" EntityType="Self.sach" />
+    <AssociationSet Name="fk_sach_nhaxuatban" Association="Self.fk_sach_nhaxuatban">
+      <End Role="nhaxuatban" EntitySet="nhaxuatban" />
+      <End Role="sach" EntitySet="sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

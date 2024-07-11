@@ -1,0 +1,57 @@
+﻿@model IEnumerable<pvv_2210900085.Models.nhaxuatban>
+
+@{
+    ViewBag.Title = "danh mục nhà xuất bản";
+    Layout = "~/Views/Shared/_PvvLayout.cshtml";
+}
+
+<h2>danh mục nhà xuất bản</h2>
+
+<p>
+    @*Html.ActionLink("Create New", "Create")*@
+</p>
+<a href="/nhaxuatbans/Create" class="btn btn-primary my-3">them moi</a>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.manxb)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tennhaxuatban)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tongdausach)
+          
+        </th>
+        <th>chuc namg</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.manxb)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.tennhaxuatban)
+        </th>
+        <td>
+            @Html.DisplayFor(modelItem => item.tongdausach)
+            @if (item.tongdausach == 0)
+            {
+                <spam style="color:green">hoat dong </spam>
+            }
+            else
+            {
+            <spam style="color:red"> khong hoat dong</spam>
+
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.manxb }) |
+            @Html.ActionLink("Details", "Details", new { id = item.manxb }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.manxb })
+        </td>
+    </tr>
+}
+
+</table>

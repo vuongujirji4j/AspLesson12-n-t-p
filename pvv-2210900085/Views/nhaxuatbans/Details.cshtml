@@ -1,0 +1,35 @@
+﻿@model pvv_2210900085.Models.nhaxuatban
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_PvvLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>nhaxuatban</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tennhaxuatban)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tennhaxuatban)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tongdausach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tongdausach)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.manxb }) |
+    @Html.ActionLink("Back to List", "PvvIndex")
+</p>
